@@ -43,7 +43,7 @@ def naming_system
   animals = { 
     PORTION_1
   }
-  return animals[1]
+  return animals[0]
 end
 
 #animals = {
