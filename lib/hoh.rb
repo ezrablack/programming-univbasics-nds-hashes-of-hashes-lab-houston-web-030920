@@ -47,3 +47,15 @@ def naming_system
   return animals
 end
 
+animals = {
+   :label=> "Kingdom",
+   :sub_category=> {
+     :label=> "Phylum",
+     :sub_category=> {
+       :label=> "Class",
+       :sub_category=> {
+        :label=> "Order"
+       }
+     }
+   }
+ }
